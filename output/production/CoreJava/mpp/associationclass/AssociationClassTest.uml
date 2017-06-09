@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>mpp.associationclass.AssociationClassTest</OriginalElement>
+  <nodes>
+    <node x="263.0" y="389.0">mpp.associationclass.Student</node>
+    <node x="274.0" y="0.0">mpp.associationclass.Course</node>
+    <node x="209.0" y="211.0">mpp.associationclass.AssociationClassTest</node>
+    <node x="0.0" y="198.0">mpp.associationclass.Transcript</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mpp.associationclass.Transcript" target="mpp.associationclass.Course">
+      <point x="0.0" y="-5.73905319651648" />
+      <point x="0.0" y="-5.739053196516494" />
+    </edge>
+    <edge source="mpp.associationclass.Student" target="mpp.associationclass.Transcript">
+      <point x="-2.6736896334961955" y="4.225089791203857" />
+      <point x="-2.6736896334961955" y="4.225089791203857" />
+    </edge>
+    <edge source="mpp.associationclass.AssociationClassTest" target="mpp.associationclass.Course">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="mpp.associationclass.AssociationClassTest" target="mpp.associationclass.Transcript">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="mpp.associationclass.Course" target="mpp.associationclass.Transcript">
+      <point x="2.454429718055792" y="4.356119231509226" />
+      <point x="2.454429718055806" y="4.356119231509226" />
+    </edge>
+    <edge source="mpp.associationclass.Student" target="mpp.associationclass.Course">
+      <point x="-4.998002136478334" y="-0.1413316799518043" />
+      <point x="-4.998002136478334" y="-0.1413316799518327" />
+    </edge>
+    <edge source="mpp.associationclass.Course" target="mpp.associationclass.Student">
+      <point x="5.001998662132507" y="0.0" />
+      <point x="5.001998662132507" y="0.0" />
+    </edge>
+    <edge source="mpp.associationclass.AssociationClassTest" target="mpp.associationclass.Student">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="mpp.associationclass.Transcript" target="mpp.associationclass.Student">
+      <point x="9.350374735645516" y="0.0" />
+      <point x="0.0" y="-5.917034012400677" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="278.0" y="254.0" />
+  <SelectedNodes>
+    <node>mpp.associationclass.Student</node>
+    <node>mpp.associationclass.Course</node>
+    <node>mpp.associationclass.AssociationClassTest</node>
+    <node>mpp.associationclass.Transcript</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
