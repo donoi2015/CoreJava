@@ -6,3 +6,4 @@ gen
 .gitignore
 .idea/
 test/
+output/
