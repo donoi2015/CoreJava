@@ -17,6 +17,9 @@ public class Chapter1Assessment {
         //        java.lang       . is not allowed
         //X        Public
         //        1980_s   first character must be a letter, $ or _
+        String numbers = "012345678";
+        System.out.println(numbers.substring(1, 3));
+        System.out.println(numbers.substring(7, 7));
     }
 
     public void problem3() {

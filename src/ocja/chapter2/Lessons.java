@@ -7,10 +7,10 @@ import java.util.Arrays;
  */
 public class Lessons {
     public static void main(String[] args) {
-        compound();
-        logical();
-        switchCase();
-        toUpper();
+        //        compound();
+        //        logical();
+        //        switchCase();
+        //        toUpper();
         arrayEquals();
     }
 
@@ -99,8 +99,11 @@ public class Lessons {
         System.out.println(a == b); // false
 
         String x = "Hello World";
+        String y = "Hello World".trim();
         String z = " Hello World".trim();
-        System.out.println(x == z); // false
+        System.out.println("x==y:" + (x == y));
+        System.out.println("x==z:" + (x == z)); // false
+        System.out.println("x==z:" + (y == z)); // false
     }
 
     public static void arrayEquals() {

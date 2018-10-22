@@ -12,22 +12,23 @@ import java.util.List;
 class AssessmentTest {
 
     private static int $;
+    private String s = "lol";
 
     public static void main(String[] main) {
-        problem1();
-        problem2();
-        problem3();
-        problem4();
+        //        problem1();
+        //        problem2();
+        //        problem3();
+        //        problem4();
         problem5();
-        problem6();
-        problem7();
+        //        problem6();
+        //        problem7();
     }
 
     public static void problem1() {
         System.out.println("problem1------------------------");
         String a_b;
         System.out.println($);
-        //        System.out.print(a_b);
+        //                System.out.print(a_b);
     }
 
     public static void problem2() {
@@ -48,17 +49,17 @@ class AssessmentTest {
         //            int getTailLength();
         //        }
         //        abstract class Puma implements HasTail {
-        //            protected int getTailLength() {
+        //            protected int getTailLength() {              //will not compile because of this line
         //                return 4;
         //            }
         //        }
-        //        public class Cougar extends Puma {
+        //        public class Cougar extends Puma {                //will not compile because of this line
         //            public static void main(String[] args) {
         //                Puma puma = new Puma();
         //                System.out.println(puma.getTailLength());
         //            }
         //
-        //            public int getTailLength(int length) {
+        //            public int getTailLength(int length) {             //will not compile because of this line
         //                return 2;
         //            }
         //        }
@@ -135,7 +136,7 @@ class AssessmentTest {
     public static void problem9() {
         //        Checked exceptions are intended to be thrown by the JVM (and not the programmer).
         //        Checked exceptions are required to be caught or declared.
-        //                Errors are intended to be thrown by the JVM (and not the programmer).
+        //        Errors are intended to be thrown by the JVM (and not the programmer).
         //        Errors are required to be caught or declared.
         //        Runtime exceptions are intended to be thrown by the JVM (and not the programmer).
         //        Runtime exceptions are required to be caught or declared.
@@ -168,4 +169,5 @@ class AssessmentTest {
     public static void problem11() {
 
     }
+
 }

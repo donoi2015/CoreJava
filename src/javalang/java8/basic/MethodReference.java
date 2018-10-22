@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
-//method references are only useful for the simplest cases, where you dont need to work with the passed parameter extensively.
+//method references are only useful for the simplest cases, where you don't need to work with the passed parameter extensively.
 //if you're only consuming the parameter use mr.
 public class MethodReference {
     public static void main(String[] args) {

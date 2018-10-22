@@ -21,7 +21,8 @@ public class Deer {
 
     public static void main(String[] args) {
         Deer deer = new Reindeer(5);
-        System.out.println("," + deer.hasHorns());
+        System.out.println("," + deer.hasHorns()); //deer - ability to call method, actual method called is last overridden method.
+        //here however, hasHorns is private so it wasn't overridden, if it was public Reindeer.hasHorns() will be called.
     }
 }
 

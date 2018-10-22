@@ -27,8 +27,7 @@ public class AvlTreeTest {
 				break;
 			case 2:
 				System.out.println("Enter integer element to search");
-				System.out.println("Search result : "
-						+ avlt.search(scan.nextInt()));
+                System.out.println("Search result : " + avlt.search(scan.nextInt()));
 				break;
 			case 3:
 				System.out.println("Nodes = " + avlt.countNodes());

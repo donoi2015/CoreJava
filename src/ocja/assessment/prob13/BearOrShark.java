@@ -1,4 +1,4 @@
-package ocja.assessment;
+package ocja.assessment.prob13;
 
 /**
  * @author ts-tuluv.battulga
